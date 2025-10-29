@@ -1,7 +1,6 @@
 #include <iostream>
-#include <vector>
-#include "inversion_counter.h"
-#include "array_utils.h"
+#include "inversion_counter.hpp"
+#include "array_utils.hpp"
 
 int main()
 {
@@ -10,17 +9,20 @@ int main()
     std::cout << "Введите размер массива: ";
     std::cin >> size;
     
-    std::vector<int> array(size);
-    std::vector<int> temp(size);
+    int* arr = new int[size];
+    int* temp = new int[size];
     
-    generateRandomArray(array);
+    svr::generateRandomArray(arr, size);
     
     std::cout << "Сгенерированный массив: ";
-    printArray(array);
+    svr::printArray(arr, size);
     
-    const int inversionCount = countInversions(array, temp, 0, size - 1);
+    const int inversionCount = svr::countInversions(arr, temp, 0, size - 1);
     
     std::cout << "Количество инверсий в массиве: " << inversionCount << std::endl;
+    
+    delete[] arr;
+    delete[] temp;
     
     return 0;
 }

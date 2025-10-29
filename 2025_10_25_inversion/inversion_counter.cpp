@@ -1,6 +1,6 @@
-#include "inversion_counter.h"
+#include "inversion_counter.hpp"
 
-int mergeAndCount(std::vector<int>& array, std::vector<int>& temp, int left, int mid, int right)
+int svr::mergeAndCount(int* arr, int* temp, int left, int mid, int right)
 {
     int i = left;
     int j = mid + 1;
@@ -9,14 +9,14 @@ int mergeAndCount(std::vector<int>& array, std::vector<int>& temp, int left, int
     
     while (i <= mid && j <= right)
     {
-        if (array[i] <= array[j])
+        if (arr[i] <= arr[j])
         {
-            temp[k] = array[i];
+            temp[k] = arr[i];
             i++;
         }
         else
         {
-            temp[k] = array[j];
+            temp[k] = arr[j];
             j++;
             count += (mid - i + 1);
         }
@@ -25,27 +25,27 @@ int mergeAndCount(std::vector<int>& array, std::vector<int>& temp, int left, int
     
     while (i <= mid)
     {
-        temp[k] = array[i];
+        temp[k] = arr[i];
         i++;
         k++;
     }
     
     while (j <= right)
     {
-        temp[k] = array[j];
+        temp[k] = arr[j];
         j++;
         k++;
     }
     
     for (int index = left; index <= right; index++)
     {
-        array[index] = temp[index];
+        arr[index] = temp[index];
     }
     
     return count;
 }
 
-int countInversions(std::vector<int>& array, std::vector<int>& temp, int left, int right)
+int svr::countInversions(int* arr, int* temp, int left, int right)
 {
     if (left >= right)
     {
@@ -55,9 +55,9 @@ int countInversions(std::vector<int>& array, std::vector<int>& temp, int left, i
     const int mid = (left + right) / 2;
     int count = 0;
     
-    count += countInversions(array, temp, left, mid);
-    count += countInversions(array, temp, mid + 1, right);
-    count += mergeAndCount(array, temp, left, mid, right);
+    count += countInversions(arr, temp, left, mid);
+    count += countInversions(arr, temp, mid + 1, right);
+    count += mergeAndCount(arr, temp, left, mid, right);
     
     return count;
 }

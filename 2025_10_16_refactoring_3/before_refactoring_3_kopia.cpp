@@ -2,7 +2,7 @@
 #include <iostream>
 
 const int size = 20;
-const int random_arr = 20;
+const int random_arr_size = 20;
 
 void print_Arr(const int arr[], int size);
 void fill_Random(int arr[], int size);
@@ -30,7 +30,7 @@ void fill_Random(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
     {
-        arr[i] = rand() % random_arr;
+        arr[i] = rand() % random_arr_size;
     }
 }
 

@@ -1,9 +1,9 @@
-#ifndef ARRAY_UTILS_H
-#define ARRAY_UTILS_H
+#ifndef ARRAY_UTILS_HPP
+#define ARRAY_UTILS_HPP
 
-#include <vector>
-
-void generateRandomArray(std::vector<int>& array);
-void printArray(const std::vector<int>& array);
+namespace svr {
+    void generateRandomArray(int* arr, int size);
+    void printArray(const int* arr, int size);
+}
 
 #endif
