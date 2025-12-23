@@ -2,25 +2,7 @@
 #include <iostream>
 
 #include "menu_func.hpp"
-namespace
-{
-	const svr::MenuItem* menu(const svr::MenuItem* current)
-	{
-		for (int i = 1; i < current->children_amount; i++)
-		{	
-			std::cout << current->children[i]->name << std::endl;
-		}
-		
-		std::cout << current->children[0]->name << std::endl;
-		std::cout << "Читаем >> ";
-		
-		int user_input;
-		std::cin >> user_input;
-		std::cout << std::endl;
-		
-		return current->children[user_input];
-	}
-}
+
 const svr::MenuItem* svr::exit(const MenuItem* current)
 {
 	std::exit(0);
@@ -34,12 +16,36 @@ const svr::MenuItem* svr::go_back(const MenuItem* current)
 const svr::MenuItem* svr::pushkin(const MenuItem* current)
 {
 	std::cout << "Что читаем?" << std::endl;
-	return menu(current);
+		for (int i = 1; i < current->children_amount; i++)
+		{	
+			std::cout << current->children[i]->name << std::endl;
+		}
+		
+		std::cout << current->children[0]->name << std::endl;
+		std::cout << "Читаем >> ";
+		
+		int user_input;
+		std::cin >> user_input;
+		std::cout << std::endl;
+		
+		return current->children[user_input];
 }
 const svr::MenuItem* svr::show_menu(const MenuItem* current)
 {
 	std::cout << "Кого читаем? " << std::endl;
-	return menu(current);
+		for (int i = 1; i < current->children_amount; i++)
+		{	
+			std::cout << current->children[i]->name << std::endl;
+		}
+		
+		std::cout << current->children[0]->name << std::endl;
+		std::cout << "Читаем >> ";
+		
+		int user_input;
+		std::cin >> user_input;
+		std::cout << std::endl;
+		
+		return current->children[user_input];
 }
 
 const svr::MenuItem* svr::dubrovsky(const MenuItem* current)

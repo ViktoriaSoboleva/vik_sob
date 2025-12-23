@@ -1,11 +1,11 @@
 #include <iostream>
+
 #include "menu.hpp"
+#include "menu_functions.hpp"
 #include "menu_items.hpp"
-#include "menu_func.hpp"
 
 int main()
-{
-	
+{	
 	const svr::MenuItem* current = &svr::MAIN;
 	do
 	{
