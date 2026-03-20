@@ -1,0 +1,28 @@
+Start testing: Dec 25 00:06 Забайкальское стандартное время
+----------------------------------------------------------
+1/1 Testing: test_bubble
+1/1 Test: test_bubble
+Command: "C:/ibusko/code/vik_sob/2025_12_17_projects/build_ninja/tests/test/test_bubble.exe"
+Directory: C:/ibusko/code/vik_sob/2025_12_17_projects/build_ninja/tests/test
+"test_bubble" start time: Dec 25 00:06 Забайкальское стандартное время
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ArraysEqual
+[ RUN      ] ArraysEqual.AnyElementsCount
+[       OK ] ArraysEqual.AnyElementsCount (0 ms)
+[----------] 1 test from ArraysEqual (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.58 sec
+----------------------------------------------------------
+Test Passed.
+"test_bubble" end time: Dec 25 00:06 Забайкальское стандартное время
+"test_bubble" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 25 00:06 Забайкальское стандартное время

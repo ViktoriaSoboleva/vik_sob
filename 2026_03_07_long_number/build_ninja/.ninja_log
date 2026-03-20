@@ -1,13 +1,13 @@
 # ninja log v7
-253	5516	7945218326082673	long_number/CMakeFiles/LN_lib.dir/src/long_number.cpp.obj	adfaa0d17835bebf
-5533	8877	7945218379622538	long_number/libLN_lib.a	85d32b848ca0f9f
-60	10784	7945218324186488	lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	e5d4b472a74e8ff3
-41	12206	7945218323986499	lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	a80cf89961356204
-588	13661	7945218329485080	long_number/test/CMakeFiles/long_number_test.dir/long_number_test.cpp.obj	5db8306bd873db7b
-22	16615	7945218323781222	lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	f73c64b97a59da05
-6	28470	7945218323631198	lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	e809898825fd82ce
-28482	29448	7945218608387957	lib/libgtest.a	bbc287cf7bc3f0c3
-29544	30341	7945218618997506	lib/libgtest_main.a	cde874d526189f1b
-29448	30348	7945218618046853	lib/libgmock.a	985471d96c925ad4
-30348	30910	7945218627051886	lib/libgmock_main.a	82f0c9d979fc0001
-30910	32625	7945218632654770	long_number/test/long_number_test.exe	be7e499b753f3027
+161	8389	7951838121134031	long_number/CMakeFiles/LN_lib.dir/src/long_number.cpp.obj	adfaa0d17835bebf
+8449	13888	7951838204014657	long_number/libLN_lib.a	85d32b848ca0f9f
+60	14546	7951838120129364	lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	e5d4b472a74e8ff3
+42	16036	7951838119949380	lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	a80cf89961356204
+181	17873	7951838121868758	long_number/test/CMakeFiles/long_number_test.dir/long_number_test.cpp.obj	5db8306bd873db7b
+24	21229	7951838119763927	lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	f73c64b97a59da05
+9	33314	7951838119607196	lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	e809898825fd82ce
+33325	34252	7951838452773764	lib/libgtest.a	bbc287cf7bc3f0c3
+34344	35113	7951838462956616	lib/libgtest_main.a	cde874d526189f1b
+34252	35142	7951838462038201	lib/libgmock.a	985471d96c925ad4
+35142	35769	7951838470941095	lib/libgmock_main.a	82f0c9d979fc0001
+35770	37717	7951838477220923	long_number/test/long_number_test.exe	be7e499b753f3027

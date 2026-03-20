@@ -1,0 +1,3 @@
+C:\Users\Prikol\Downloads\mingw64\bin\cmake.exe -E rm -f CMakeFiles\learn_soft.dir/objects.a
+C:\Users\Prikol\Downloads\mingw64\bin\ar.exe qc CMakeFiles\learn_soft.dir/objects.a @CMakeFiles\learn_soft.dir\objects1.rsp
+C:\Users\Prikol\Downloads\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\learn_soft.dir/objects.a -Wl,--no-whole-archive -o learn_soft.exe -Wl,--out-implib,liblearn_soft.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\learn_soft.dir\linkLibs.rsp

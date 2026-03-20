@@ -1,6 +1,19 @@
 #include "long_number.hpp"
 
-using ssY::LongNumber;
+using svr::LongNumber;
+
+LN func();
+
+LN b;
+LN a = b;
+a = b;
+a = LN();
+a = func();
+Что вызвается и почему?
+lvalue | rvalue - что это и как определить в коде?
+Алгоритм умножения
+
+
 		
 LongNumber::LongNumber() {
 	numbers = new int[1]{0};
@@ -344,7 +357,7 @@ int LongNumber::get_length(const char* const str) const noexcept {
 // ----------------------------------------------------------
 // FRIENDLY
 // ----------------------------------------------------------
-namespace ssY {
+namespace svr {
 	std::ostream& operator << (std::ostream &os, const LongNumber& x) {
 		if (x.sign == -1) 
 			os << '-';

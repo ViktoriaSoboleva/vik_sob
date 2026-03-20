@@ -1,0 +1,3 @@
+C:/ibusko/code/vik_sob/2025_12_17_projects/Source/learn_soft/build/CMakeFiles/learn_soft.dir
+C:/ibusko/code/vik_sob/2025_12_17_projects/Source/learn_soft/build/CMakeFiles/edit_cache.dir
+C:/ibusko/code/vik_sob/2025_12_17_projects/Source/learn_soft/build/CMakeFiles/rebuild_cache.dir

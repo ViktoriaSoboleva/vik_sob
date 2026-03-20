@@ -1,0 +1,20 @@
+# ninja log v7
+104	2848	7882919479126111	tests/CMakeFiles/bubble_sort_lib.dir/src/bubble_sort.cpp.obj	faef7a51fb6b1b66
+129	3884	7882919479376065	bubble_sort/CMakeFiles/bubble_sort.dir/main.cpp.obj	40ff58c7712c45aa
+2858	5608	7882919506673241	bubble_sort/CMakeFiles/bubble_sort.dir/bubble_sort.cpp.obj	b93df45f9d7cdfa2
+5610	6888	7882919534170382	learn_soft/CMakeFiles/learn_soft.dir/menu_items.cpp.obj	1fa2b01780718154
+3890	7773	7882919516972162	learn_soft/CMakeFiles/learn_soft.dir/main.cpp.obj	e8bf56e45c4122d5
+73	10105	7882919478826123	lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	f2b9bc2fe9865be2
+7774	10592	7882919555818123	tests/libbubble_sort_lib.a	a118349947ee0408
+6889	10942	7882919546969043	learn_soft/CMakeFiles/learn_soft.dir/menu_functions.cpp.obj	fdf2fc887c622270
+44	13516	7882919478526156	lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	d2763fd7d2df2bee
+10943	13695	7882919587514835	learn_soft/learn_soft.exe	160263e64ddca007
+10592	13704	7882919584015191	bubble_sort/bubble_sort.exe	9e5dd0dd6c417d86
+26	16984	7882919478326183	lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	b045d7e843ab5441
+10111	17108	7882919579215698	tests/test/CMakeFiles/test_bubble.dir/test_bubble.cpp.obj	ebfd6f6d4d8712c3
+9	28451	7882919478176205	lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	4ceecc5a3b09581e
+28461	29400	7882919762680560	lib/libgtest.a	bbc287cf7bc3f0c3
+29498	30203	7882919773079492	lib/libgtest_main.a	cde874d526189f1b
+29400	30220	7882919772079624	lib/libgmock.a	985471d96c925ad4
+30221	30805	7882919780278750	lib/libgmock_main.a	82f0c9d979fc0001
+30805	32773	7882919786128128	tests/test/test_bubble.exe	6f462027ee699103

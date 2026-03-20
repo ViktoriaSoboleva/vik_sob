@@ -1,0 +1,20 @@
+CMakeFiles/learn_soft.dir/menu_items.cpp.obj: \
+ C:\ibusko\code\vik_sob\2025_12_17_projects\Source\learn_soft\menu_items.cpp \
+ C:\ibusko\code\vik_sob\2025_12_17_projects\Source\learn_soft\menu_items.hpp \
+ C:\ibusko\code\vik_sob\2025_12_17_projects\Source\learn_soft\menu.hpp \
+ C:/Users/Prikol/Downloads/mingw64/include/c++/15.2.0/cstddef \
+ C:/Users/Prikol/Downloads/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ C:/Users/Prikol/Downloads/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/Users/Prikol/Downloads/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/Users/Prikol/Downloads/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
+ C:/Users/Prikol/Downloads/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+ C:/Users/Prikol/Downloads/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ C:/Users/Prikol/Downloads/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/Users/Prikol/Downloads/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ C:/Users/Prikol/Downloads/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/Users/Prikol/Downloads/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/Users/Prikol/Downloads/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/Users/Prikol/Downloads/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/Users/Prikol/Downloads/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/Users/Prikol/Downloads/mingw64/include/c++/15.2.0/bits/version.h \
+ C:\ibusko\code\vik_sob\2025_12_17_projects\Source\learn_soft\menu_functions.hpp

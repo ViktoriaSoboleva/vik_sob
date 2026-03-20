@@ -5,8 +5,8 @@ set(SOURCES
 add_executable(long_number_test ${SOURCES})
 target_link_libraries(long_number_test
 	${LIBRARY}
-	gtest_main 
+	gtest
 	gmock_main 
 )
 
-add_test(long_number_test long_number_test)
+add_test(NAME long_number_test COMMAND long_number_test)

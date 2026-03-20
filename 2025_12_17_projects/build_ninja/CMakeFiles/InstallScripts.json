@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/ibusko/code/vik_sob/2025_12_17_projects/build_ninja/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2025_12_17_projects/build_ninja/lib/googletest/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2025_12_17_projects/build_ninja/lib/googletest/googlemock/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2025_12_17_projects/build_ninja/lib/googletest/googletest/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2025_12_17_projects/build_ninja/bubble_sort/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2025_12_17_projects/build_ninja/learn_soft/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2025_12_17_projects/build_ninja/tests/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2025_12_17_projects/build_ninja/tests/src/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2025_12_17_projects/build_ninja/tests/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

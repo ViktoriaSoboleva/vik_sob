@@ -2,33 +2,33 @@
 #include <gtest/gtest.h>
 #include "long_number.hpp"
 
-using namespace ssY;
+using namespace svr;
 
 class Examples : public testing::Test{
 	public:
-		ssY::LongNumber ex1 = ssY::LongNumber("1");
-		ssY::LongNumber ex1_neg = ssY::LongNumber("-1");
-		ssY::LongNumber ex1_copy = ssY::LongNumber("1");
-		ssY::LongNumber ex1_neg_copy = ssY::LongNumber("-1");
+		svr::LongNumber ex1 = svr::LongNumber("1");
+		svr::LongNumber ex1_neg = svr::LongNumber("-1");
+		svr::LongNumber ex1_copy = svr::LongNumber("1");
+		svr::LongNumber ex1_neg_copy = svr::LongNumber("-1");
 		
 		
-		ssY::LongNumber ex2 = ssY::LongNumber("2");
-		ssY::LongNumber ex2_neg = ssY::LongNumber("-2");
-		ssY::LongNumber ex3 = ssY::LongNumber("3");
-		ssY::LongNumber ex3_neg = ssY::LongNumber("-3");
-		ssY::LongNumber ex4 = ssY::LongNumber("4");
-		ssY::LongNumber ex4_neg = ssY::LongNumber("-4");
-		ssY::LongNumber ex5 = ssY::LongNumber("7");
-		ssY::LongNumber ex5_neg = ssY::LongNumber("-7");
-		ssY::LongNumber ex6 = ssY::LongNumber("10");
-		ssY::LongNumber ex6_neg = ssY::LongNumber("-10");
-		ssY::LongNumber ex7 = ssY::LongNumber("21");
-		ssY::LongNumber ex7_neg = ssY::LongNumber("-21");
-		ssY::LongNumber big_ex = ssY::LongNumber("1234567");
-		ssY::LongNumber big_ex_neg = ssY::LongNumber("-1234567");
-		ssY::LongNumber big_ex_copy = ssY::LongNumber("1234567");
+		svr::LongNumber ex2 = svr::LongNumber("2");
+		svr::LongNumber ex2_neg = svr::LongNumber("-2");
+		svr::LongNumber ex3 = svr::LongNumber("3");
+		svr::LongNumber ex3_neg = svr::LongNumber("-3");
+		svr::LongNumber ex4 = svr::LongNumber("4");
+		svr::LongNumber ex4_neg = svr::LongNumber("-4");
+		svr::LongNumber ex5 = svr::LongNumber("7");
+		svr::LongNumber ex5_neg = svr::LongNumber("-7");
+		svr::LongNumber ex6 = svr::LongNumber("10");
+		svr::LongNumber ex6_neg = svr::LongNumber("-10");
+		svr::LongNumber ex7 = svr::LongNumber("21");
+		svr::LongNumber ex7_neg = svr::LongNumber("-21");
+		svr::LongNumber big_ex = svr::LongNumber("1234567");
+		svr::LongNumber big_ex_neg = svr::LongNumber("-1234567");
+		svr::LongNumber big_ex_copy = svr::LongNumber("1234567");
 		
-		ssY::LongNumber null = ssY::LongNumber("0");
+		svr::LongNumber null = svr::LongNumber("0");
 };
 
 TEST_F(Examples, EQ_Test) {
@@ -84,9 +84,9 @@ TEST_F(Examples, Add_Test) {
     EXPECT_EQ(ex6_neg, ex5_neg + ex3_neg); // -7 + -3 = -10
     
     EXPECT_EQ(ex4, ex5 + ex3_neg); // 7 + -3 = 4
-    EXPECT_EQ(ex5_neg, ex6_neg + ex3); // -10 + 3 = 7
+    EXPECT_EQ(ex5_neg, ex6_neg + ex3); // -10 + 3 = -7
     
-    ssY::LongNumber sum = ssY::LongNumber("1234569");
+    svr::LongNumber sum = svr::LongNumber("1234569");
     EXPECT_EQ(sum, big_ex + ex2); // 1234567 + 2 = 1234569
 }
 TEST_F(Examples, Sub_Test) {
@@ -99,7 +99,7 @@ TEST_F(Examples, Sub_Test) {
 	EXPECT_EQ(ex6_neg, ex3_neg - ex5); // -3 - 7 = -10 
     EXPECT_EQ(ex6, ex5 - ex3_neg); // 7 - -3 = 10
 
-    ssY::LongNumber sub = ssY::LongNumber("1234565");
+    svr::LongNumber sub = svr::LongNumber("1234565");
     EXPECT_EQ(sub, big_ex - ex2); // 1234567 - 2 = 12345695
 }
 
@@ -113,7 +113,7 @@ TEST_F(Examples, Mul_Test) {
     EXPECT_EQ(ex7_neg, ex5_neg * ex3); // -7 * 3 = -21
     EXPECT_EQ(ex2_neg, ex2 * ex1_neg); // 2 * -1 = -2
 
-    ssY::LongNumber mul = ssY::LongNumber("2469134");
+    svr::LongNumber mul = svr::LongNumber("2469134");
     EXPECT_EQ(mul, ex2 * big_ex); // 2 * 1234567 = 2469134
 }
 
@@ -131,7 +131,7 @@ TEST_F(Examples, Div_Test) {
 	EXPECT_EQ(null, ex4_neg / ex5); // -4 / 7 = 0
 	EXPECT_EQ(null, ex4 / ex5_neg); // 4 / -7 = 0
 
-    ssY::LongNumber div = ssY::LongNumber("617283");
+    svr::LongNumber div = svr::LongNumber("617283");
     EXPECT_EQ(div, big_ex / ex2); // 1234567 / 2 = 617283
 }
 
@@ -149,7 +149,7 @@ TEST_F(Examples, Rem_Test) {
 	EXPECT_EQ(ex1_neg, ex4_neg % ex3); // -4 % 3 = -1
 	EXPECT_EQ(ex5_neg, ex5_neg % ex7_neg); // -7 % -21 = -7
 
-    ssY::LongNumber rem = ssY::LongNumber("1");
+    svr::LongNumber rem = svr::LongNumber("1");
     EXPECT_EQ(rem, big_ex % ex2); // 1234567 % 2 = 1
 }
 

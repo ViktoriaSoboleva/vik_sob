@@ -1,0 +1,3 @@
+C:/ibusko/code/vik_sob/2025_12_17_projects/Source/bubble_sort/build/CMakeFiles/bubble_sort.dir
+C:/ibusko/code/vik_sob/2025_12_17_projects/Source/bubble_sort/build/CMakeFiles/edit_cache.dir
+C:/ibusko/code/vik_sob/2025_12_17_projects/Source/bubble_sort/build/CMakeFiles/rebuild_cache.dir

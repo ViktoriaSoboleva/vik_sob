@@ -9,4 +9,5 @@ add_subdirectory(bubble_sort)
 add_subdirectory(learn_soft)
 add_subdirectory(tests)
 
+
 set(CMAKE_SUPPRESS_REGENERATION true)

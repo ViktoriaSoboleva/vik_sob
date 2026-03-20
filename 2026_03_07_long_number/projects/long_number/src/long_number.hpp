@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-namespace ssY {
+namespace svr {
 	class LongNumber {
 		private:
 			int* numbers;
