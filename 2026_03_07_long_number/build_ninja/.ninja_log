@@ -1,13 +1,7 @@
 # ninja log v7
-161	8389	7951838121134031	long_number/CMakeFiles/LN_lib.dir/src/long_number.cpp.obj	adfaa0d17835bebf
-8449	13888	7951838204014657	long_number/libLN_lib.a	85d32b848ca0f9f
-60	14546	7951838120129364	lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	e5d4b472a74e8ff3
-42	16036	7951838119949380	lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	a80cf89961356204
-181	17873	7951838121868758	long_number/test/CMakeFiles/long_number_test.dir/long_number_test.cpp.obj	5db8306bd873db7b
-24	21229	7951838119763927	lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	f73c64b97a59da05
-9	33314	7951838119607196	lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	e809898825fd82ce
-33325	34252	7951838452773764	lib/libgtest.a	bbc287cf7bc3f0c3
-34344	35113	7951838462956616	lib/libgtest_main.a	cde874d526189f1b
-34252	35142	7951838462038201	lib/libgmock.a	985471d96c925ad4
-35142	35769	7951838470941095	lib/libgmock_main.a	82f0c9d979fc0001
-35770	37717	7951838477220923	long_number/test/long_number_test.exe	be7e499b753f3027
+424	2649	7969346535016895	lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	345c6b37a1a4ecd2
+1177	3081	7969346542542082	lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	f7cc00dcc42d7cca
+171	3645	7969346532497245	lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	ecb0cce5aeb5328
+3	7483	7969346530839410	lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	de0365e25bcf6f99
+14	1367	7969347630736850	lib/libgtest.a	7457c499b386c36f
+184	1376	7969347632462974	long_number/CMakeFiles/LN_lib.dir/src/long_number.cpp.obj	f5cf9db7f49c91d6

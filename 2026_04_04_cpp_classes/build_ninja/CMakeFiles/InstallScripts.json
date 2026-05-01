@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/ibusko/code/vik_sob/2026_04_04_cpp_classes/build_ninja/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2026_04_04_cpp_classes/build_ninja/lib/googletest/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2026_04_04_cpp_classes/build_ninja/lib/googletest/googlemock/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2026_04_04_cpp_classes/build_ninja/lib/googletest/googletest/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2026_04_04_cpp_classes/build_ninja/vector_list/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2026_04_04_cpp_classes/build_ninja/vector_list/src/cmake_install.cmake",
+		"C:/ibusko/code/vik_sob/2026_04_04_cpp_classes/build_ninja/vector_list/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

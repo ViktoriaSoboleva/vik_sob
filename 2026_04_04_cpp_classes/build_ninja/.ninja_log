@@ -1,0 +1,25 @@
+# ninja log v7
+1125	4200	7970031584782736	vector_list/CMakeFiles/containers_lib.dir/src/doubly_linked_list.cpp.obj	78eebfa02a71ed87
+1563	4309	7970031589136920	vector_list/CMakeFiles/containers_lib.dir/src/vector.cpp.obj	ec7260c603985944
+499	4605	7970031578516376	lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	d38f6524c78a87b7
+817	4675	7970031581711154	lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	4ba3c0b191b57419
+2305	4705	7970031596587877	vector_list/test/CMakeFiles/doubly_linked_list_tests.dir/templates_doubly_linked_list.cpp.obj	1434813eb4e7a193
+191	4824	7970031575416413	lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	5baa532b444f135d
+1930	4903	7970031592836929	vector_list/test/CMakeFiles/doubly_linked_list_tests.dir/test_doubly_linked_list.cpp.obj	d2c8a4419fb1fb48
+2983	4914	7970031603345417	vector_list/test/CMakeFiles/vector_tests.dir/templates_vector.cpp.obj	c361f2ba7a1d78ba
+2621	5290	7970031599740587	vector_list/test/CMakeFiles/vector_tests.dir/test_vector.cpp.obj	7f456c3232449d88
+4311	5480	7970031616612280	vector_list/libcontainers_lib.a	d116fb36edd97914
+2	13542	7970031573549439	lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d94aa79722bc24c
+13547	14287	7970031708975755	lib/libgtest.a	7457c499b386c36f
+14288	15166	7970031716413949	lib/libgmock.a	27ef702e6282011d
+14538	15358	7970031718917261	lib/libgtest_main.a	211060647ef40445
+15166	15850	7970031725185302	lib/libgmock_main.a	7a29412e9b208dff
+15851	18414	7970031732008657	vector_list/test/doubly_linked_list_tests.exe	cc78c1b2b69d6b57
+16127	18723	7970031734801383	vector_list/test/vector_tests.exe	a0f92aea264b1cd5
+15	1811	7971897661572033	vector_list/CMakeFiles/containers_lib.dir/src/doubly_linked_list.cpp.obj	78eebfa02a71ed87
+287	2263	7971897664294468	vector_list/CMakeFiles/containers_lib.dir/src/vector.cpp.obj	ec7260c603985944
+550	2444	7971897666933556	vector_list/test/CMakeFiles/doubly_linked_list_tests.dir/templates_doubly_linked_list.cpp.obj	1434813eb4e7a193
+945	2835	7971897670870682	vector_list/test/CMakeFiles/vector_tests.dir/templates_vector.cpp.obj	c361f2ba7a1d78ba
+2263	3355	7971897684050238	vector_list/libcontainers_lib.a	d116fb36edd97914
+3355	5961	7971897694970176	vector_list/test/doubly_linked_list_tests.exe	cc78c1b2b69d6b57
+3588	6162	7971897697313091	vector_list/test/vector_tests.exe	a0f92aea264b1cd5

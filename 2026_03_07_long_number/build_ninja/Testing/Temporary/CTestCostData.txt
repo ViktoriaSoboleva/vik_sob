@@ -1,2 +1,0 @@
-long_number_test 1 0.724062
----

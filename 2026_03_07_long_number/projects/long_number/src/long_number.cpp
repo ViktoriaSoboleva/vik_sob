@@ -2,16 +2,7 @@
 
 using svr::LongNumber;
 
-LN func();
 
-LN b;
-LN a = b;
-a = b;
-a = LN();
-a = func();
-Что вызвается и почему?
-lvalue | rvalue - что это и как определить в коде?
-Алгоритм умножения
 
 
 		
