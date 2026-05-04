@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1777680205 source:c:\ibusko\code\vik_sob\2026_05_01_supermario\s1\main.cpp
-	<stdio.h>
-	<stdlib.h>
-	<math.h>
-	<windows.h>
-
