@@ -91,7 +91,29 @@ void CreateLevel(int lvl);
 
 BOOL IsCollision(TObject o1, TObject o2);
 
+TObject *GetNewBrick();
+
 TObject *GetNewMoving();
+
+void AddBrick(
+    float xPos,
+    float yPos,
+    float width,
+    float height,
+    char type
+) {
+    InitObject(GetNewBrick(), xPos, yPos, width, height, type);
+}
+
+void AddMoving(
+    float xPos,
+    float yPos,
+    float width,
+    float height,
+    char type
+) {
+    InitObject(GetNewMoving(), xPos, yPos, width, height, type);
+}
 
 void PlayerDead()
 {
@@ -241,6 +263,7 @@ void HorizonMoveObject(TObject *obj)
         VertMoveObject(&tmp);
 
         if (tmp.IsFly == TRUE) {
+
             obj->x -= obj->horizSpeed;
 
             obj->horizSpeed = -obj->horizSpeed;
@@ -330,7 +353,8 @@ void HorizonMoveMap(float dx)
 
 BOOL IsCollision(TObject o1, TObject o2)
 {
-    return (
+    return 
+    (
         ((o1.x + o1.width) > o2.x) &&
         (o1.x < (o2.x + o2.width)) &&
         ((o1.y + o1.height) > o2.y) &&
@@ -378,74 +402,74 @@ void CreateLevel(int lvl)
 
     if (lvl == 1) {
 
-        InitObject(GetNewBrick(), 20, 20, 40, 5, '#');
-        InitObject(GetNewBrick(), 30, 10, 5, 3, '?');
-        InitObject(GetNewBrick(), 50, 10, 5, 3, '?');
+        AddBrick(20, 20, 40, 5, '#');
+        AddBrick(30, 10, 5, 3, '?');
+        AddBrick(50, 10, 5, 3, '?');
 
-        InitObject(GetNewBrick(), 60, 15, 40, 10, '#');
+        AddBrick(60, 15, 40, 10, '#');
 
-        InitObject(GetNewBrick(), 60, 5, 10, 3, '-');
-        InitObject(GetNewBrick(), 70, 5, 5, 3, '?');
+        AddBrick(60, 5, 10, 3, '-');
+        AddBrick(70, 5, 5, 3, '?');
 
-        InitObject(GetNewBrick(), 75, 5, 5, 3, '-');
-        InitObject(GetNewBrick(), 80, 5, 5, 3, '?');
+        AddBrick(75, 5, 5, 3, '-');
+        AddBrick(80, 5, 5, 3, '?');
 
-        InitObject(GetNewBrick(), 85, 5, 10, 3, '-');
+        AddBrick(85, 5, 10, 3, '-');
 
-        InitObject(GetNewBrick(), 100, 20, 20, 5, '#');
+        AddBrick(100, 20, 20, 5, '#');
 
-        InitObject(GetNewBrick(), 120, 15, 10, 10, '#');
+        AddBrick(120, 15, 10, 10, '#');
 
-        InitObject(GetNewBrick(), 150, 20, 40, 5, '#');
+        AddBrick(150, 20, 40, 5, '#');
 
-        InitObject(GetNewBrick(), 210, 15, 10, 10, '+');
+        AddBrick(210, 15, 10, 10, '+');
 
-        InitObject(GetNewMoving(), 25, 10, 3, 2, 'o');
-        InitObject(GetNewMoving(), 80, 10, 3, 2, 'o');
+        AddMoving(25, 10, 3, 2, 'o');
+        AddMoving(80, 10, 3, 2, 'o');
     }
 
     if (lvl == 2) {
 
-        InitObject(GetNewBrick(), 20, 20, 40, 5, '#');
+        AddBrick(20, 20, 40, 5, '#');
 
-        InitObject(GetNewBrick(), 60, 15, 10, 10, '#');
+        AddBrick(60, 15, 10, 10, '#');
 
-        InitObject(GetNewBrick(), 80, 20, 20, 5, '#');
+        AddBrick(80, 20, 20, 5, '#');
 
-        InitObject(GetNewBrick(), 120, 15, 10, 10, '#');
+        AddBrick(120, 15, 10, 10, '#');
 
-        InitObject(GetNewBrick(), 150, 20, 40, 5, '#');
+        AddBrick(150, 20, 40, 5, '#');
 
-        InitObject(GetNewBrick(), 210, 15, 10, 10, '+');
+        AddBrick(210, 15, 10, 10, '+');
 
-        InitObject(GetNewMoving(), 25, 10, 3, 2, 'o');
-        InitObject(GetNewMoving(), 80, 10, 3, 2, 'o');
+        AddMoving(25, 10, 3, 2, 'o');
+        AddMoving(80, 10, 3, 2, 'o');
 
-        InitObject(GetNewMoving(), 65, 10, 3, 2, 'o');
-        InitObject(GetNewMoving(), 120, 10, 3, 2, 'o');
+        AddMoving(65, 10, 3, 2, 'o');
+        AddMoving(120, 10, 3, 2, 'o');
 
-        InitObject(GetNewMoving(), 160, 10, 3, 2, 'o');
-        InitObject(GetNewMoving(), 175, 10, 3, 2, 'o');
+        AddMoving(160, 10, 3, 2, 'o');
+        AddMoving(175, 10, 3, 2, 'o');
     }
 
     if (lvl == 3) {
 
-        InitObject(GetNewBrick(), 20, 20, 40, 5, '#');
+        AddBrick(20, 20, 40, 5, '#');
 
-        InitObject(GetNewBrick(), 80, 20, 15, 5, '#');
+        AddBrick(80, 20, 15, 5, '#');
 
-        InitObject(GetNewBrick(), 120, 15, 15, 10, '#');
+        AddBrick(120, 15, 15, 10, '#');
 
-        InitObject(GetNewBrick(), 160, 10, 15, 15, '+');
+        AddBrick(160, 10, 15, 15, '+');
 
-        InitObject(GetNewMoving(), 25, 10, 3, 2, 'o');
-        InitObject(GetNewMoving(), 50, 10, 3, 2, 'o');
+        AddMoving(25, 10, 3, 2, 'o');
+        AddMoving(50, 10, 3, 2, 'o');
 
-        InitObject(GetNewMoving(), 80, 10, 3, 2, 'o');
-        InitObject(GetNewMoving(), 90, 10, 3, 2, 'o');
+        AddMoving(80, 10, 3, 2, 'o');
+        AddMoving(90, 10, 3, 2, 'o');
 
-        InitObject(GetNewMoving(), 120, 10, 3, 2, 'o');
-        InitObject(GetNewMoving(), 130, 10, 3, 2, 'o');
+        AddMoving(120, 10, 3, 2, 'o');
+        AddMoving(130, 10, 3, 2, 'o');
     }
 }
 
