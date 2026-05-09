@@ -35,7 +35,7 @@ int maxLvl = 3;
 void ClearMap() {
 
     for (int i = 0; i < mapWidth; i++)
-        map[0][i] = '.';
+        map[0][i] = ' ';
 
     map[0][mapWidth] = '\0';
 
