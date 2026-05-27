@@ -1,9 +1,9 @@
 #include "LevelCreator.hpp"
-#include "Level.hpp"
+#include "GameController.hpp"
 
 #include <cstdlib>
 
-void LevelCreator::load(Level& level, int levelNumber) {
+void LevelCreator::load(GameController& level, int levelNumber) {
     system("color 9F");
 
     level.bricks.clear();
@@ -26,7 +26,7 @@ void LevelCreator::load(Level& level, int levelNumber) {
     }
 }
 
-void LevelCreator::loadFirstLevel(Level& level) {
+void LevelCreator::loadFirstLevel(GameController& level) {
     level.addBrick<Brick>(20, 20, 40, 5, '#');
     level.addBrick<QuestionBrick>(30, 10, 5, 3);
     level.addBrick<QuestionBrick>(50, 10, 5, 3);
@@ -45,7 +45,7 @@ void LevelCreator::loadFirstLevel(Level& level) {
     level.addEntity<Enemy>(80, 10);
 }
 
-void LevelCreator::loadSecondLevel(Level& level) {
+void LevelCreator::loadSecondLevel(GameController& level) {
     level.addBrick<Brick>(20, 20, 40, 5, '#');
     level.addBrick<Brick>(60, 15, 10, 10, '#');
     level.addBrick<Brick>(80, 20, 20, 5, '#');
@@ -61,7 +61,7 @@ void LevelCreator::loadSecondLevel(Level& level) {
     level.addEntity<Enemy>(175, 10);
 }
 
-void LevelCreator::loadThirdLevel(Level& level) {
+void LevelCreator::loadThirdLevel(GameController& level) {
     level.addBrick<Brick>(20, 20, 40, 5, '#');
     level.addBrick<Brick>(80, 20, 15, 5, '#');
     level.addBrick<Brick>(120, 15, 15, 10, '#');

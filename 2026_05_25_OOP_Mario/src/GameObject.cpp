@@ -1,5 +1,5 @@
 #include "GameObject.hpp"
-#include "Level.hpp"
+#include "GameController.hpp"
 #include "Movement.hpp"
 
 #include <cmath>
@@ -34,7 +34,7 @@ Brick::Brick(float x, float y, float width, float height, char type)
 QuestionBrick::QuestionBrick(float x, float y, float width, float height)
     : Brick(x, y, width, height, '?') {}
 
-void QuestionBrick::onHitFromBelow(Level& level) {
+void QuestionBrick::onHitFromBelow(GameController& level) {
     used = true;
     cType = '-';
     level.addEntity<Coin>(x, y - 3, this);
@@ -49,7 +49,7 @@ Coin::Coin(float x, float y, Brick* source)
     horizSpeed = 0.2f;
 }
 
-void Coin::update(Level& level) {
+void Coin::update(GameController& level) {
     if (vertSpeed < 0) {
         vertSpeed += 0.05f;
         y += vertSpeed;
@@ -75,7 +75,7 @@ Enemy::Enemy(float x, float y)
     horizSpeed = 0.2f;
 }
 
-void Enemy::update(Level& level) {
+void Enemy::update(GameController& level) {
     Movement::applyGravity(*this, level);
     Movement::applyHorizontalMove(*this, level);
 
@@ -109,7 +109,7 @@ void Mario::reset(float newX, float newY) {
     isFlying = false;
 }
 
-void Mario::handleInput(Level& level) {
+void Mario::handleInput(GameController& level) {
     if (!isFlying && GetKeyState(VK_SPACE) < 0) {
         vertSpeed = -1.0f;
     }
@@ -123,7 +123,7 @@ void Mario::handleInput(Level& level) {
     }
 }
 
-void Mario::update(Level& level) {
+void Mario::update(GameController& level) {
     handleInput(level);
 
     if (y > MAP_H) {

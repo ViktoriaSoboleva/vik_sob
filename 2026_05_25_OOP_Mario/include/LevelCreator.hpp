@@ -1,13 +1,13 @@
 #pragma once
 
-class Level;
+class GameController;
 
 class LevelCreator {
 public:
-    static void load(Level& level, int levelNumber);
+    static void load(GameController& level, int levelNumber);
 
 private:
-    static void loadFirstLevel(Level& level);
-    static void loadSecondLevel(Level& level);
-    static void loadThirdLevel(Level& level);
+    static void loadFirstLevel(GameController& level);
+    static void loadSecondLevel(GameController& level);
+    static void loadThirdLevel(GameController& level);
 };

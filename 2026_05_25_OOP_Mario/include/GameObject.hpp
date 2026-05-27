@@ -2,7 +2,7 @@
 
 #include "Map.hpp"
 
-class Level;
+class GameController;
 
 class GameObject {
 public:
@@ -21,7 +21,7 @@ public:
 
     bool collidesWith(const GameObject& other) const;
     void drawOn(Map& map) const;
-    virtual void update(Level& level) {}
+    virtual void update(GameController& level) {}
 };
 
 class Brick : public GameObject {
@@ -34,7 +34,7 @@ public:
     bool used = false;
 
     QuestionBrick(float x, float y, float width, float height);
-    void onHitFromBelow(Level& level);
+    void onHitFromBelow(GameController& level);
 };
 
 class FinishBrick : public Brick {
@@ -47,13 +47,13 @@ public:
     Brick* sourceBrick = nullptr;
 
     Coin(float x, float y, Brick* source = nullptr);
-    void update(Level& level) override;
+    void update(GameController& level) override;
 };
 
 class Enemy : public GameObject {
 public:
     Enemy(float x, float y);
-    void update(Level& level) override;
+    void update(GameController& level) override;
 };
 
 class Mario : public GameObject {
@@ -61,6 +61,6 @@ public:
     Mario();
 
     void reset(float x = 39, float y = 10);
-    void handleInput(Level& level);
-    void update(Level& level) override;
+    void handleInput(GameController& level);
+    void update(GameController& level) override;
 };

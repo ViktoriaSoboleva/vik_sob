@@ -1,11 +1,11 @@
 #pragma once
 
 class GameObject;
-class Level;
+class GameController;
 
 class Movement {
 public:
-    static bool applyGravity(GameObject& object, Level& level);
-    static void applyHorizontalMove(GameObject& object, Level& level);
-    static void scrollMap(Level& level, float dx);
+    static bool applyGravity(GameObject& object, GameController& level);
+    static void applyHorizontalMove(GameObject& object, GameController& level);
+    static void scrollMap(GameController& level, float dx);
 };

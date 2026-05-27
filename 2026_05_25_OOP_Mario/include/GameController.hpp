@@ -7,7 +7,7 @@
 #include <memory>
 #include <vector>
 
-class Level {
+class GameController {
 public:
     std::vector<std::unique_ptr<Brick>> bricks;
     std::vector<std::unique_ptr<GameObject>> entities;

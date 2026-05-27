@@ -1,25 +1,20 @@
-#include "Level.hpp"
+#include "GameController.hpp"
 #include "Map.hpp"
 
 #include <windows.h>
 
-// TODO
-// 1. Rename Level to GameController
-// 2. LevelController.load use switch among if-else
-// 3. GameObject module split into modules for each class
-
 int main() {
-    Level level;
-    level.load(1);
+    GameController game;
+    game.load(1);
 
     Map map;
 
     while (GetKeyState(VK_ESCAPE) >= 0) {
         map.clear();
-        level.update();
-        level.draw(map);
+        game.update();
+        game.draw(map);
         map.render();
-        Sleep(5);
+        Sleep(10);
     }
 
     return 0;

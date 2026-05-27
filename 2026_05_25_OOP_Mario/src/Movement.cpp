@@ -1,8 +1,8 @@
 #include "Movement.hpp"
 #include "GameObject.hpp"
-#include "Level.hpp"
+#include "GameController.hpp"
 
-bool Movement::applyGravity(GameObject& object, Level& level) {
+bool Movement::applyGravity(GameObject& object, GameController& level) {
     object.isFlying = true;
     object.vertSpeed += 0.05f;
     object.y += object.vertSpeed;
@@ -39,7 +39,7 @@ bool Movement::applyGravity(GameObject& object, Level& level) {
     return true;
 }
 
-void Movement::applyHorizontalMove(GameObject& object, Level& level) {
+void Movement::applyHorizontalMove(GameObject& object, GameController& level) {
     object.x += object.horizSpeed;
 
     for (auto& brick : level.bricks) {
@@ -76,7 +76,7 @@ void Movement::applyHorizontalMove(GameObject& object, Level& level) {
     }
 }
 
-void Movement::scrollMap(Level& level, float dx) {
+void Movement::scrollMap(GameController& level, float dx) {
     level.mario.x -= dx;
 
     for (auto& brick : level.bricks) {

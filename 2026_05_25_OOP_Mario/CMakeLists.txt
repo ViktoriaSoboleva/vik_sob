@@ -12,5 +12,5 @@ add_executable(Mario
     src/GameObject.cpp
     src/Movement.cpp
     src/LevelCreator.cpp
-    src/Level.cpp
+    src/GameController.cpp
 )

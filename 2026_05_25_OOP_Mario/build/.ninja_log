@@ -1,8 +1,0 @@
-# ninja log v7
-387	1270	8014939977256300	CMakeFiles/Mario.dir/src/Movement.cpp.obj	cd78af0f381003ef
-534	1550	8014939978706428	CMakeFiles/Mario.dir/src/LevelCreator.cpp.obj	ff9468f6d0ce53f0
-119	1780	8014939974562897	CMakeFiles/Mario.dir/src/Map.cpp.obj	bb48f5de048342c9
-8	1855	8014939973455978	CMakeFiles/Mario.dir/src/main.cpp.obj	685074e7966e59
-225	2182	8014939975614089	CMakeFiles/Mario.dir/src/GameObject.cpp.obj	575375ef85d23179
-675	2377	8014939980148314	CMakeFiles/Mario.dir/src/Level.cpp.obj	bf4b99a9423c7dba
-2377	4103	8014939997161354	Mario.exe	fd5ba47e8ea2d724

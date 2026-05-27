@@ -1,20 +1,20 @@
-#include "Level.hpp"
+#include "GameController.hpp"
 #include "LevelCreator.hpp"
 
 #include <cstdlib>
 #include <windows.h>
 
-void Level::load(int levelNumber) {
+void GameController::load(int levelNumber) {
     LevelCreator::load(*this, levelNumber);
 }
 
-void Level::playerDead() {
+void GameController::playerDead() {
     system("color 4F");
     Sleep(500);
     needReload = true;
 }
 
-void Level::goNextLevel() {
+void GameController::goNextLevel() {
     levelNum++;
 
     if (levelNum > maxLevel) {
@@ -26,7 +26,7 @@ void Level::goNextLevel() {
     load(levelNum);
 }
 
-void Level::purgeEntities() {
+void GameController::purgeEntities() {
     entities.erase(
         std::remove_if(
             entities.begin(),
@@ -39,7 +39,7 @@ void Level::purgeEntities() {
     );
 }
 
-void Level::update() {
+void GameController::update() {
     mario.update(*this);
 
     if (needReload) {
@@ -58,7 +58,7 @@ void Level::update() {
     purgeEntities();
 }
 
-void Level::draw(Map& map) {
+void GameController::draw(Map& map) {
     for (auto& brick : bricks) {
         brick->drawOn(map);
     }
