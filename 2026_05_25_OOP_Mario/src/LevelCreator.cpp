@@ -1,6 +1,10 @@
 #include "LevelCreator.hpp"
 #include "GameController.hpp"
 
+#include "Brick.hpp"
+#include "QuestionBrick.hpp"
+#include "FinishBrick.hpp"
+#include "Enemy.hpp"
 #include <cstdlib>
 
 void LevelCreator::load(GameController& level, int levelNumber) {
@@ -14,21 +18,21 @@ void LevelCreator::load(GameController& level, int levelNumber) {
     level.nextLevel = false;
 
     switch (levelNumber) {
-    case 1:
-        loadFirstLevel(level);
-        break;
+        case 1:
+            loadFirstLevel(level);
+            break;
 
-    case 2:
-        loadSecondLevel(level);
-        break;
+        case 2:
+            loadSecondLevel(level);
+            break;
 
-    case 3:
-        loadThirdLevel(level);
-        break;
+        case 3:
+            loadThirdLevel(level);
+            break;
 
-    default:
-        loadFirstLevel(level);
-        break;
+        default:
+            loadFirstLevel(level);
+            break;
     }
 }
 

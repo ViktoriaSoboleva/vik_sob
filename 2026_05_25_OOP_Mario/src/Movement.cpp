@@ -1,4 +1,6 @@
 #include "Movement.hpp"
+#include "QuestionBrick.hpp"
+#include "Brick.hpp"
 #include "GameObject.hpp"
 #include "GameController.hpp"
 

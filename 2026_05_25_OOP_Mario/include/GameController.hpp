@@ -1,6 +1,7 @@
 #pragma once
 
-#include "GameObject.hpp"
+#include "Brick.hpp"
+#include "Mario.hpp"
 #include "Map.hpp"
 
 #include <algorithm>
