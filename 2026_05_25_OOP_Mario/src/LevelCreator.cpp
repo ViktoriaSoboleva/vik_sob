@@ -13,16 +13,22 @@ void LevelCreator::load(GameController& level, int levelNumber) {
     level.needReload = false;
     level.nextLevel = false;
 
-    if (levelNumber == 1) {
+    switch (levelNumber) {
+    case 1:
         loadFirstLevel(level);
-    }
+        break;
 
-    if (levelNumber == 2) {
+    case 2:
         loadSecondLevel(level);
-    }
+        break;
 
-    if (levelNumber == 3) {
+    case 3:
         loadThirdLevel(level);
+        break;
+
+    default:
+        loadFirstLevel(level);
+        break;
     }
 }
 
