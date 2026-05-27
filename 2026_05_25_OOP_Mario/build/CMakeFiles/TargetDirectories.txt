@@ -1,0 +1,3 @@
+C:/ibusko/code/vik_sob/2026_05_25_OOP_Mario/build/CMakeFiles/Mario.dir
+C:/ibusko/code/vik_sob/2026_05_25_OOP_Mario/build/CMakeFiles/edit_cache.dir
+C:/ibusko/code/vik_sob/2026_05_25_OOP_Mario/build/CMakeFiles/rebuild_cache.dir
