@@ -5,8 +5,8 @@ namespace biv {
     WelcomeWindow::WelcomeWindow (QWidget* parent)
     : QWidget(parent)
     {
-        setWindowTitle("Клавиатура от Тани");
-        welcome_label = new QLabel("Вас приветствует клавиатура от Тани", this);
+        setWindowTitle("Клавиатура от Вики");
+        welcome_label = new QLabel("Вас приветствует клавиатура от Вики", this);
         auto* layout = new QVBoxLayout(this);
         layout -> addWidget(welcome_label);
 
