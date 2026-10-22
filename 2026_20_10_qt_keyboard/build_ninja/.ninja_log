@@ -1,0 +1,13 @@
+# ninja log v7
+13	995	8144005123086897	keyboard_autogen/timestamp	47a8fd03992385e5
+13	995	8144005123086897	keyboard_autogen/mocs_compilation.cpp	47a8fd03992385e5
+13	995	8144005123086897	C:/ibusko/code/vik_sob/2026_20_10_qt_keyboard/build_ninja/keyboard_autogen/timestamp	47a8fd03992385e5
+13	995	8144005123086897	C:/ibusko/code/vik_sob/2026_20_10_qt_keyboard/build_ninja/keyboard_autogen/mocs_compilation.cpp	47a8fd03992385e5
+1143	2586	8144005125634882	CMakeFiles/keyboard.dir/src/keyboard_data.cpp.obj	b9d26647ea6162a
+1111	3258	8144005125299712	CMakeFiles/keyboard.dir/src/keyboard_button.cpp.obj	4ea49af170097cb1
+1007	3373	8144005124186140	CMakeFiles/keyboard.dir/keyboard_autogen/mocs_compilation.cpp.obj	e791afe38b457441
+1225	3401	8144005126452071	CMakeFiles/keyboard.dir/src/welcome_window.cpp.obj	a113c4787e133c1
+1029	3420	8144005124499276	CMakeFiles/keyboard.dir/src/main.cpp.obj	d570af29d088af68
+1053	3473	8144005124740473	CMakeFiles/keyboard.dir/src/keyboard.cpp.obj	efa7aff592fa639f
+1199	3710	8144005126201688	CMakeFiles/keyboard.dir/src/keyboard_window.cpp.obj	eaff787cac414ab
+3710	4027	8144005151256488	keyboard.exe	a7dd3066df397cd9

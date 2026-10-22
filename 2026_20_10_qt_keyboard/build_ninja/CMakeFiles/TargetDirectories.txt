@@ -1,0 +1,5 @@
+C:/ibusko/code/vik_sob/2026_20_10_qt_keyboard/build_ninja/CMakeFiles/keyboard.dir
+C:/ibusko/code/vik_sob/2026_20_10_qt_keyboard/build_ninja/CMakeFiles/edit_cache.dir
+C:/ibusko/code/vik_sob/2026_20_10_qt_keyboard/build_ninja/CMakeFiles/rebuild_cache.dir
+C:/ibusko/code/vik_sob/2026_20_10_qt_keyboard/build_ninja/CMakeFiles/keyboard_autogen_timestamp_deps.dir
+C:/ibusko/code/vik_sob/2026_20_10_qt_keyboard/build_ninja/CMakeFiles/keyboard_autogen.dir

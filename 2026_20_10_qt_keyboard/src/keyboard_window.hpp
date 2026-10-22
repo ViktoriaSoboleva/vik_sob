@@ -5,6 +5,7 @@
 #include <QKeyEvent>
 #include <QLineEdit>
 #include <QWidget>
+#include <QEvent>
 
 #include "keyboard.hpp"
 
@@ -19,5 +20,6 @@ namespace biv {
 			
 		protected:
 			void keyPressEvent(QKeyEvent* event) override;
+        	bool eventFilter(QObject* watched, QEvent* event) override;
 	};
 }

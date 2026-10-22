@@ -11,7 +11,7 @@ if not exist %BUILD_FOLDER% mkdir %BUILD_FOLDER%
 
 cd %BUILD_FOLDER%
 
-cmake -G %BUILD_TYPE% ..\%SOURCE_FOLDER%
+cmake -G %BUILD_TYPE% ..\%SOURCE_FOLDER% -DCMAKE_PREFIX_PATH=C:/msys64/ucrt64/
 cmake --build .
 
 if not exist %IMG_FOLDER% mkdir %IMG_FOLDER%
